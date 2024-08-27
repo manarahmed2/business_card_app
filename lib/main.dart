@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(BusinessCardApp());
+  runApp(const BusinessCardApp());
 }
 
 class BusinessCardApp extends StatelessWidget {
@@ -9,7 +9,7 @@ class BusinessCardApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       home: Scaffold(
         backgroundColor: Color(0xFF2B475E),
         body: Column(
